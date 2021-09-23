@@ -13,7 +13,7 @@
   cursor: grabbing;
 }
 .scontainer__input:checked ~ .sliderbody {
-  transform: translate(0%, -105%) !important;
+  transform: translate(2%, -105%) !important;
 }
 .home__input:checked ~ .sliderbody {
   transform: translate(120%, -105%) !important;
@@ -143,7 +143,7 @@
   cursor: grabbing;
 }
 .snav__input:checked ~ .slider {
-  transform: translateX(0);
+  transform: translateX(2%);
 }
 .snav__input:checked ~ .slider > .slider__icon__out {
   opacity: 1;
