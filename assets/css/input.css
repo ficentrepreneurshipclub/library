@@ -207,11 +207,11 @@
   transform: translatey(-6px);
   cursor: grabbing;
 }
-.radio__input:checked ~ .bg {
+/* .radio__input:checked ~ .bg {
   opacity: 0;
   width: 103%;
   height: 103%;
-}
+} */
 
 /* .library__input:checked ~ .bg {
   opacity: 0;
