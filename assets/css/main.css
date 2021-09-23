@@ -40,7 +40,7 @@ body {
 }
 
 .bg2 {
-  opacity: .7;
+  opacity: 0.6;
   width: 100%;
   height: 100%;
 
@@ -435,9 +435,9 @@ body {
   width: 92%;
   height: 80vh;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.098),
-    0 0 5px rgba(139, 139, 139, 0.58),
-    0 0 8px rgba(255, 255, 255, 0.219);
-  background: rgba(254, 255, 255, 0.041);
+    0 0 5px rgba(90, 90, 90, 0.58),
+    0 0 8px rgba(43, 43, 43, 0.219);
+  background: rgba(254, 255, 255, 0.00);
   /* background: rgba(124, 169, 175, 0.082); */
 
   transform: translatex(-150%);
@@ -447,7 +447,7 @@ body {
   margin-top: 3rem;
   overflow: auto;
   display: grid;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(4px);
   grid-template-columns: 1fr 5fr 3fr;
   grid-template-rows: 10rem 25rem 30rem 6rem;
   user-select: none;
@@ -550,7 +550,7 @@ body {
 /* ________________________-navbar111111111111____________________ */
 .navbar1 {
   user-select: none;
-  background: rgba(0, 21, 61, 0.829);
+  background: rgba(0, 21, 61, 1);
   text-align: center;
   line-height: 5rem;
   overflow: hidden;
