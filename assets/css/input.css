@@ -88,11 +88,6 @@
   width: 100%;
   height: 100%;
 } */
-.sbutton__input:checked ~ .bg {
-  opacity: 0;
-  width: 103%;
-  height: 103%;
-}
 
 .smore__input:checked ~ .bg {
   opacity: 0.8;
@@ -105,7 +100,7 @@
   height: 100%;
 }
 .smore__input:checked ~ .bg2 {
-  opacity: 0.7;
+  opacity: 0.8;
   width: 100%;
   height: 100%;
 }
@@ -207,11 +202,6 @@
   transform: translatey(-6px);
   cursor: grabbing;
 }
-.radio__input:checked ~ .bg {
-  opacity: 0;
-  width: 104%;
-  height: 104%;
-}
 
 /* .library__input:checked ~ .bg {
   opacity: 0;
@@ -219,26 +209,23 @@
   height: 100%;
 } */
 
-.snav__input:checked ~ .bg {
-  opacity: 0.8 !important;
-  width: 100% !important;
-  height: 100% !important;
+.home__input:checked ~ .bar__home {
+  right: 0 !important;
 }
-.snav__input:checked ~ .bg2 {
+
+.library__input:checked ~ .bg {
   opacity: 0 !important;
   width: 103% !important;
   height: 103% !important;
 }
-.home__input:checked ~ .bar__home {
-  right: 0 !important;
+.contact__input:checked ~ .bg {
+  opacity: 0 !important;
+}
+.hot__input:checked ~ .bg {
+  opacity: 0 !important;
 }
 .home__input:checked ~ .bg {
   opacity: 1 !important;
-  width: 100% !important;
-  height: 100% !important;
-}
-.home__input:checked ~ .bg2 {
-  opacity: 0 !important;
   width: 100% !important;
   height: 100% !important;
 }

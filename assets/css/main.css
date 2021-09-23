@@ -424,7 +424,7 @@ body {
   margin: auto auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(130deg,  rgb(0, 73, 168), rgb(0, 57, 75));
+  background-image: linear-gradient(130deg,  rgb(15, 192, 236), rgb(0, 113, 148));
   transition: 0.45s ease;
   opacity: 0;
   grid-area: out;
@@ -436,8 +436,8 @@ body {
   height: 80vh;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.098),
     0 0 5px rgba(139, 139, 139, 0.58),
-    0 0 8px rgb(214, 214, 214);
-  background: rgba(120, 180, 204, 0.76);
+    0 0 8px rgba(255, 255, 255, 0.219);
+  background: rgba(254, 255, 255, 0.041);
   /* background: rgba(124, 169, 175, 0.082); */
 
   transform: translatex(-150%);
@@ -447,7 +447,7 @@ body {
   margin-top: 3rem;
   overflow: auto;
   display: grid;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
   grid-template-columns: 1fr 5fr 3fr;
   grid-template-rows: 10rem 25rem 30rem 6rem;
   user-select: none;
@@ -542,8 +542,8 @@ body {
   transform: scale(1.05);
   background-image: linear-gradient(
     130deg,
-    rgb(0, 115, 150),
-    rgb(0, 93, 146)
+    rgb(80, 214, 255),
+    rgb(120, 205, 255)
   );
 }
 
@@ -658,8 +658,8 @@ body {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(
     90deg,
-    rgb(0, 88, 146),
-    rgb(0, 72, 94)
+    rgb(197, 226, 245),
+    rgb(103, 220, 255)
   );
 }
 .top__button {
