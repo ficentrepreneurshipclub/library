@@ -358,11 +358,11 @@ body {
 }
 .slider__animated {
   position: absolute;
-  border-radius: 10px;
+  border-radius: 0px;
   /* width: 50%; */
   height: 7rem;
   background:  
-    rgba(163, 163, 163, 0.353)
+    rgba(255, 255, 255, 0.083)
   ;
   top: -1.1rem;
   z-index: -1;
@@ -379,7 +379,7 @@ body {
 .scontainer__input:checked ~ .slide__bar > .slider__icon > .slider__animated {
   transform: translatey(210%);
   width: 200%;
-
+/* left: -11.5rem; */
   opacity: 1;
 }
 .sbutton__input:checked ~ .slide__bar > .slider__icon > .slider__animated {
@@ -550,13 +550,14 @@ body {
 /* ________________________-navbar111111111111____________________ */
 .navbar1 {
   user-select: none;
-  background: rgba(0, 21, 61, 1);
+  background: rgba(0, 0, 0, 0.8);
   text-align: center;
   line-height: 5rem;
   overflow: hidden;
   padding: 0rem 0;
-  box-shadow: 0 0 5px rgba(122, 122, 122, 0.473);
+  box-shadow: 0 0 1px rgba(71, 71, 71, 0.473),0 0 7px rgba(75, 75, 75, 0.473);
   border-radius:5px;
+  backdrop-filter:blur(5px);
 }
 .navbar__item {
   user-select: none;
@@ -746,11 +747,13 @@ user-select: none;
   transform: translate(-50%, -50%);
   width: 40rem;
   height: 50rem;
-  background: rgba(0, 21, 61, 0.86);
+  background: rgba(77, 77, 77, 0);
+  backdrop-filter: blur(5px );
 
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.247),
-    0 0 8px rgba(255, 255, 255, 0.147);
+  box-shadow: 0 0 10px rgba(107, 107, 107, 0.247),
+    0 0 6px rgba(94, 94, 94, 0.547);
   border-radius: 15px;
+
 }
 .show1__bar {
   position: absolute;
@@ -758,7 +761,8 @@ user-select: none;
   left: 0;
   height: 100%;
   width: 50%;
-  background: rgb(3, 30, 78);
+  background: rgba(0, 0, 0, .8);
+  backdrop-filter:blur(50px);
 
 
   z-index: 99;
@@ -782,17 +786,18 @@ user-select: none;
   font-size: 1.3rem;
   font-family: sans-serif;
   font-weight: 600;
-  color: rgb(202, 202, 202);
+  color: rgb(255, 255, 255);
   width: 100%;
   height: 100%;
   line-height: 5rem;
   transition: 0.35s ease;
+  opacity: 0.7;
 }
 .show1__bar > a:hover {
-  background: rgba(119, 119, 119, 0.39);
+  opacity: 1;
 }
 .show1__bar > a {
-  transition: 0.35s ease;
+ 
 }
 
 a:nth-of-type(1):hover span {
@@ -814,10 +819,11 @@ a:nth-of-type(1):hover span {
 }
 .show1__check:checked ~ .show1__nav > .show1__bar {
   transform: translateX(0);
+  z-index: 9999999999;
 }
 .iphonex {
   position: absolute;
-  font-size: 35rem;
+  font-size: 30rem;
   padding: 0 50rem;
   position: absolute;
   top: 50%;
@@ -825,8 +831,8 @@ a:nth-of-type(1):hover span {
   transform: translate(-50%, -50%);
 
   z-index: -555;
-opacity: 0;
-  color: rgba(92, 92, 92, 0.575);
+opacity: .5;
+  color: rgba(253, 244, 244, 0.15);
 }
 .phone__icon {
   padding: 10rem 10rem;
@@ -852,19 +858,22 @@ opacity: 0;
   border-radius: 50%;
 }
 .show1__ra1:checked ~ .show1__animated {
-  background: rgb(194, 194, 194);
+  background: rgb(255, 255, 255);
 }
 .show1__ra2:checked ~ .show1__animated {
-  background: rgb(194, 194, 194);
+  background: rgb(255, 255, 255);
   transform: translateY(520%);
 }
 .show1__ra3:checked ~ .show1__animated {
-  background: rgb(194, 194, 194);
+  background: rgb(255, 255, 255);
   transform: translateY(1010%);
 }
 .show1__ra4:checked ~ .show1__animated {
-  background: rgb(194, 194, 194);
+  background: rgb(255, 255, 255);
   transform: translateY(1510%);
+}
+.show1__ra1:checked ~ a:nth-of-type(1),.show1__ra2:checked ~ a:nth-of-type(2),.show1__ra3:checked ~ a:nth-of-type(3),.show1__ra4:checked ~ a:nth-of-type(4)  {
+  opacity: 1;
 }
 .show1__la {
   transition: 0.35s ease;
@@ -897,10 +906,10 @@ opacity: 0;
   height: 35rem;
   bottom: -12rem;
   border-radius: 50%;
-  left: -10rem;
+  left: -7rem;
   background-image: linear-gradient(
     130deg,
-    rgba(158, 158, 158, 0.68),
+    rgba(255, 255, 255, 0.68),
     rgba(109, 109, 109, 0.648)
   );
   z-index: -1;
@@ -913,7 +922,7 @@ opacity: 0;
   cursor: grab;
   background-image: linear-gradient(
     130deg,
-    rgba(0, 0, 0, 0.575),
+    rgba(37, 37, 37, 0.575),
     rgba(124, 124, 124, 0.658)
   );
   box-shadow: 0 0 5px rgba(0, 255, 234, 0.082),
