@@ -16,27 +16,27 @@
   transform: translate(2%, -105%) !important;
 }
 .home__input:checked ~ .sliderbody {
-  transform: translate(120%, -105%) !important;
+  transform: translate(150%, -105%) !important;
 }
 
 .home__input:checked ~ .slider,
 .home__input:checked ~ .circle__bg {
-  transform: translateX(-120%) !important;
+  transform: translateX(-150%) !important;
 }
 .hot__input:checked ~ .slider {
-  transform: translateX(-120%) !important;
+  transform: translateX(-150%) !important;
 }
 .hot__input:checked ~ .sliderbody {
-  transform: translate(120%, -105%) !important;
+  transform: translate(150%, -105%) !important;
 }
 .contact__input:checked ~ .sliderbody {
-  transform: translate(120%, -105%) !important;
+  transform: translate(150%, -105%) !important;
 }
 .contact__input:checked ~ .slider {
-  transform: translateX(-120%) !important;
+  transform: translateX(-150%) !important;
 }
 .scontainer__input:checked ~ .slider {
-  transform: translatey(120%) !important;
+  transform: translatey(150%) !important;
 }
 .sbutton__input:checked ~ .slider {
   transform: translatey(120%) !important;
