@@ -190,9 +190,7 @@
   z-index: 99999999999999;
   transform: scaley(1);
 }
-.show1__mobie:checked ~ .show__mobile1 > .show1__nav {
-  backdrop-filter: blur(3px);
-}
+
 .show1__mobie:checked ~ .show__mobile1 > span {
 }
 .show1__mobie:checked ~ .slider > .two__button > .slider__down > span {

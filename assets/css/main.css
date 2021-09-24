@@ -552,7 +552,7 @@ body {
 /* ________________________-navbar111111111111____________________ */
 .navbar1 {
   user-select: none;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 1);
   text-align: center;
   line-height: 5rem;
   overflow: hidden;
@@ -749,10 +749,10 @@ user-select: none;
   transform: translate(-50%, -50%);
   width: 40rem;
   height: 50rem;
-  /* background: rgba(73, 73, 73, 0.2); */
+  background: rgba(0, 0, 0, 1);
 
-  box-shadow: 0 0 10px rgba(107, 107, 107, 0.247),
-    0 0 6px rgba(94, 94, 94, 0.547);
+  box-shadow: 0 0 10px rgba(12, 12, 12, 0.347),
+    0 0 6px rgba(139, 139, 139, 0.547);
   border-radius: 15px;
 
 }
@@ -762,7 +762,8 @@ user-select: none;
   left: 0;
   height: 100%;
   width: 50%;
-  background: rgba(0, 0, 0, .9);
+  background: rgba(0, 0, 0, .8);
+  box-shadow: 0 0 3px rgb(61, 61, 61),0 0 6px rgb(61, 61, 61);
   
 
 
@@ -774,13 +775,17 @@ user-select: none;
   transition: 0.5s ease;
 }
 .show1__label {
-  color: rgba(255, 255, 255, 0.973);
+  color: rgba(134, 134, 134, 0.973);
   font-size: 3rem;
   padding: 2rem;
+  transition: .35s ease;
   padding-left: 3rem;
 }
 .show1__check:checked ~ .show1__nav>.show1__label {
   opacity:0;
+}
+.show1__label:hover {
+  color:rgb(228, 228, 228);
 }
 .show1__bar a {
   text-align: center;
@@ -852,6 +857,7 @@ opacity: .5;
 .show1__la {
   padidng: 1rem 5rem;
 }
+
 .show1__animated {
   position: absolute;
   top: 5.8rem;
