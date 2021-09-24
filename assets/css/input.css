@@ -218,6 +218,11 @@
   right: 0 !important;
 }
 
+.radio__input:checked ~ .bg {
+  opacity: 0 !important;
+  width: 102% !important;
+  height: 102% !important;
+}
 .library__input:checked ~ .bg {
   opacity: 0 !important;
   width: 103% !important;
