@@ -14,6 +14,7 @@
 }
 .scontainer__input:checked ~ .sliderbody {
   transform: translate(2%, -105%) !important;
+  opacity: 1;
 }
 .home__input:checked ~ .sliderbody {
   transform: translate(150%, -105%) !important;
@@ -139,6 +140,7 @@
 }
 .snav__input:checked ~ .slider {
   transform: translateX(2%);
+  opacity: 1;
 }
 .snav__input:checked ~ .slider > .slider__icon__out {
   opacity: 1;
@@ -187,6 +189,9 @@
   opacity: 1;
   z-index: 99999999999999;
   transform: scaley(1);
+}
+.show1__mobie:checked ~ .show__mobile1 > .show1__nav {
+  backdrop-filter: blur(3px);
 }
 .show1__mobie:checked ~ .show__mobile1 > span {
 }

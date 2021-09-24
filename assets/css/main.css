@@ -25,6 +25,7 @@ body {
   height: 100vh;
   overflow: hidden;
   background: rgb(0, 0, 0);
+  
   box-sizing: border-box;
 }
 .bg,.bg1,.bg2 {
@@ -40,7 +41,7 @@ body {
 }
 
 .bg2 {
-  opacity: 0.6;
+  opacity: 0.8;
   width: 100%;
   height: 100%;
 
@@ -305,7 +306,7 @@ body {
   top: 0rem;
   right: -7rem;
   overflow: hidden;
-  background-color: rgba(24, 24, 24, 0);
+  background-color: rgba(255, 255, 255, 0);
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 6rem 14rem 14rem 14rem 14rem 14rem;
@@ -319,7 +320,7 @@ body {
   text-align: center;
   align-items: center;
   transition: 0.6s ease;
-  box-shadow: 0 0 5px rgba(177, 177, 177, 0.39),0 0 10px rgba(26, 25, 25, 0.39);
+  box-shadow: 0 0 3px rgba(207, 207, 207, 0.89),0 0 6px rgba(26, 26, 26, 0.89);
   backdrop-filter: blur(5px);
 }
 .slide__bar::before {
@@ -434,15 +435,16 @@ body {
 .sliderbody {
   width: 92%;
   height: 80vh;
-  box-shadow: 0 0 5px rgba(138, 138, 138, 0.098),
+  box-shadow: 0 0 3px rgb(167, 167, 167),
     0 0 5px rgba(65, 65, 65, 0.58),
-    0 0 8px rgba(43, 43, 43, 0.219);
+    0 0 8px rgba(43, 43, 43, 0.219),  0 0 8px rgb(53, 53, 53);
   background: rgba(254, 255, 255, 0.00);
-  /* background: rgba(124, 169, 175, 0.082); */
+  /* background: rgba(146, 157, 158, 0.05); */
 
   transform: translatex(-150%);
-  z-index: -10;
+  z-index: 10000000000000000000000;
   transition: 0.6s ease;
+  opacity: 0;
   border-radius: 25px;
   margin-top: 3rem;
   overflow: auto;
@@ -500,7 +502,7 @@ body {
     130deg, rgb(0, 135, 224),
     rgb(15, 125, 199)
     );  
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.151);
+    box-shadow: 0 0 8px rgba(27, 27, 27, 0.151);
     
     letter-spacing:1px;
   position: relative;
@@ -555,7 +557,7 @@ body {
   line-height: 5rem;
   overflow: hidden;
   padding: 0rem 0;
-  box-shadow: 0 0 1px rgba(71, 71, 71, 0.473),0 0 7px rgba(75, 75, 75, 0.473);
+  box-shadow: 0 0 1px rgba(175, 175, 175, 0.473),0 0 7px rgba(129, 129, 129, 0.473);
   border-radius:5px;
   backdrop-filter:blur(5px);
 }
@@ -747,8 +749,7 @@ user-select: none;
   transform: translate(-50%, -50%);
   width: 40rem;
   height: 50rem;
-  background: rgba(77, 77, 77, 0);
-  backdrop-filter: blur(5px );
+  /* background: rgba(73, 73, 73, 0.2); */
 
   box-shadow: 0 0 10px rgba(107, 107, 107, 0.247),
     0 0 6px rgba(94, 94, 94, 0.547);
@@ -761,8 +762,8 @@ user-select: none;
   left: 0;
   height: 100%;
   width: 50%;
-  background: rgba(0, 0, 0, .8);
-  backdrop-filter:blur(50px);
+  background: rgba(0, 0, 0, .9);
+  
 
 
   z-index: 99;
@@ -777,6 +778,9 @@ user-select: none;
   font-size: 3rem;
   padding: 2rem;
   padding-left: 3rem;
+}
+.show1__check:checked ~ .show1__nav>.show1__label {
+  opacity:0;
 }
 .show1__bar a {
   text-align: center;
@@ -820,6 +824,8 @@ a:nth-of-type(1):hover span {
 .show1__check:checked ~ .show1__nav > .show1__bar {
   transform: translateX(0);
   z-index: 9999999999;
+ 
+  
 }
 .iphonex {
   position: absolute;
@@ -976,6 +982,9 @@ opacity: .5;
   "barhome3"
   "."
   ;
+  /* backdrop-filter: blur(10px); */
+  background-color: rgba(255, 255, 255, .05);
+
 }
 .bar__home > a:nth-child(1){
   grid-area: barhome1;
